@@ -1,0 +1,49 @@
+Name: Types
+Type: FolderType
+Children:
+- Name: Boiler
+  Type: BoilerType
+  Children:
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Temp
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+- Name: BoilerType
+  Id: g=f34c6dcb94b56f80db8995bbc61980a0
+  Supertype: BaseObjectType
+  Children:
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: Temp
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+- Name: Motor
+  Type: MotorType
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Acceleration
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+- Name: MotorType
+  Id: g=e5f764ebfafaac5c95f75f55eea24039
+  Supertype: BaseObjectType
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Acceleration
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
