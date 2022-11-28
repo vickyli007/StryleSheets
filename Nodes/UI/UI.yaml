@@ -300,3 +300,7 @@ Children:
     Type: BaseDataVariableType
     DataType: Color
     Value: "#17f98d"
+  - Name: FontFamily
+    Type: BaseDataVariableType
+    DataType: Font
+    Value: "Rockwell"
