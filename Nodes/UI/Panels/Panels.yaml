@@ -640,6 +640,16 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 80.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 545.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 320.0
   - Name: SpinBox2
     Type: SpinBox
     Children:
@@ -663,6 +673,16 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 80.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 615.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 320.0
   - Name: PieChart1
     Type: PieChart
     Children:

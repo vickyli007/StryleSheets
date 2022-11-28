@@ -2,7 +2,6 @@ Name: UI
 Type: FolderType
 Children:
 - Name: DefaultStyleSheet
-  Id: g=c2b1a690439f544ad8bcced64b92207d
   Type: StyleSheet
   Children:
   - Name: ButtonStyle
@@ -51,7 +50,7 @@ Children:
   - Name: StyleSheet
     Type: NodePointer
     DataType: NodeId
-    Value: {"IdType":2,"Id":"c2b1a690439f544ad8bcced64b92207d","Namespace":7}
+    Value: {"IdType":2,"Id":"309b4daab6b0fa52c22aaae43df8e026","Namespace":7}
     Children:
     - Name: Kind
       Type: PropertyType
@@ -142,6 +141,7 @@ Children:
       Value: 300.0
 - File: Panels/Panels.yaml
 - Name: CustomizeStyleSheet
+  Id: g=309b4daab6b0fa52c22aaae43df8e026
   Type: StyleSheet
   Children:
   - Name: ButtonStyle
@@ -204,10 +204,6 @@ Children:
       Type: BaseDataVariableType
       DataType: Size
       Value: 20.0
-  - Name: WindowColor
-    Type: BaseDataVariableType
-    DataType: Color
-    Value: "#fcfec2"
   - Name: TextColor
     Type: BaseDataVariableType
     DataType: Color
@@ -220,10 +216,6 @@ Children:
     Type: BaseDataVariableType
     DataType: Size
     Value: 2.0
-  - Name: FocusColor
-    Type: BaseDataVariableType
-    DataType: Color
-    Value: "#fa0fff"
   - Name: FocusGlowSize
     Type: BaseDataVariableType
     DataType: Size
@@ -232,10 +224,6 @@ Children:
     Type: BaseDataVariableType
     DataType: Size
     Value: 10.0
-  - Name: AccentColor
-    Type: BaseDataVariableType
-    DataType: Color
-    Value: "#09f2e4"
   - Name: AccentBorderColor
     Type: BaseDataVariableType
     DataType: Color
@@ -256,10 +244,6 @@ Children:
     Type: BaseDataVariableType
     DataType: Color
     Value: "#ef8881"
-  - Name: InteractiveColor
-    Type: BaseDataVariableType
-    DataType: Color
-    Value: "#17f98d"
   - Name: InteractiveColorGradientPercent
     Type: BaseDataVariableType
     DataType: Float
@@ -300,3 +284,19 @@ Children:
     Type: BaseDataVariableType
     DataType: Duration
     Value: "0:00:00:5.0000000"
+  - Name: WindowColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#fcfec2"
+  - Name: AccentColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#09f2e4"
+  - Name: FocusColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#fa0fff"
+  - Name: InteractiveColor
+    Type: BaseDataVariableType
+    DataType: Color
+    Value: "#17f98d"
